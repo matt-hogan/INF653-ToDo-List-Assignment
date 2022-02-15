@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 25px;
+}
+
+header {
+    border: 2px black solid;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 5px;
+}
+
+.scroll {
+    overflow-y: auto;
+    max-height: calc(100vh - 275px);
+}
+
+.item {
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.list-items {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.entry {
+    margin: 3px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.delete-button {
+    color: red;
+    background: none;
+    text-decoration: none;
+    border: none;
+    font-size: 32px;
+    margin-right: 10px;
+    -webkit-text-stroke: 1px black;
+}
+
+.no-items {
+    border: 1px black solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.add-header {
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+input {
+    height: 40px;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.add-button {
+    flex-grow: 1;
+    margin: 3px;
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+    border-radius: 15px;
+}
