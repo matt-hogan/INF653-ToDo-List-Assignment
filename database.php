@@ -1,5 +1,5 @@
 <?php
-    $dsn = "mysql:host=localhost; dbname=todoitems";
+    $dsn = "mysql:host=localhost; dbname=todolist";
     $username = "root";
     // $password = "";
 
